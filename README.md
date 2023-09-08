@@ -1,4 +1,4 @@
-# fish-docker
+# docker-abbr
 
 Abbreviations for [`docker`](https://docker.com) for the [fish shell](https://fishshell.com/) :fish:.
 

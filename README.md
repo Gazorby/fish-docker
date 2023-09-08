@@ -7,7 +7,7 @@ Abbreviations for [`docker`](https://docker.com) for the [fish shell](https://fi
 Using [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher install gazorby/fish-docker
+fisher install gazorby/docker-abbr
 ```
 
 ## Usage

@@ -1,13 +1,13 @@
 # fish-docker
 
-Abbreviations and completions for [`docker`](https://docker.com) for the [fish shell](https://fishshell.com/) :fish:.
+Abbreviations for [`docker`](https://docker.com) for the [fish shell](https://fishshell.com/) :fish:.
 
 ## Installing
 
 Using [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher add gazorby/fish-docker
+fisher install gazorby/fish-docker
 ```
 
 ## Usage
@@ -217,11 +217,3 @@ abbreviation | result
 `dkrmI` | `docker rmi $(docker images -qf dangling=true)`
 `dkplI` | `docker images --format "{{ .Repository }}" | grep -v "^<none>$" | xargs -L1 docker pull`
 `dkrmV` | `docker volume rm $(docker volume ls -qf dangling=true)`
-
-## Development
-
-To update the completions, run
-
-```
-fish scripts/update-completions.fish
-```
